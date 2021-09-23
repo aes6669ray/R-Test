@@ -4,5 +4,3 @@ barplot(h,
     names.arg = M, xlab = "X", ylab = "Y",
     col = "#00cec9", main = "Chart", border = "#fdc46e"
 )
-library(glmnet)
-
