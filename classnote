@@ -1,0 +1,6 @@
+mydata<‐read.table(file="clipboard") clipboard代表剪貼簿,windows的
+
+par(mfrow=c(3,1))
+
+
+
