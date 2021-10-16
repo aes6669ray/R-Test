@@ -2,3 +2,11 @@ filter(data,condition)  #same as data[condition]
 select(data,variable)   #same as data[ ,variable] 注意!後者選出來是list型態，前者出來是df，也可使用data[,variable,drop=F]會變成df
 mutate(data,variable=content)   #same as data$variable=content
 arrange(data,variable)  #排序，倒敘則為arrange(data,desc(variable))
+
+
+data %>%
+    group_by(category) %>%
+    summarise(mean(variable),sd(variable))
+
+tidyr   #有點複雜,要用在看,主要有spread(長變寬or壓縮),以及gather(寬變長,但是要再重新輸入category辨別)
+
