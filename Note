@@ -1,0 +1,4 @@
+filter(data,condition)  #same as data[condition]
+select(data,variable)   #same as data[ ,variable] 注意!後者選出來是list型態，前者出來是df，也可使用data[,variable,drop=F]會變成df
+mutate(data,variable=content)   #same as data$variable=content
+arrange(data,variable)  #排序，倒敘則為arrange(data,desc(variable))
