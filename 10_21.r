@@ -24,7 +24,7 @@
 #print(a)
 
 simcor <- function(ncor, nnor, rho){
-    if (ncor < 1 || nnor < 2 || rho < -1 || rho > 1) return(NA)
+    if (ncor < 1 | nnor < 2 | rho < -1 | rho > 1) return(NA)
     library(mvtnorm)
     vm <- matrix(c(1,rho,rho,1),2,2)
     result <- NULL
