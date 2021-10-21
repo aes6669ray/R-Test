@@ -13,15 +13,14 @@
 #     q<-c()
 #     for (i in c(1:x)){
 #     a <- seq(1:i)
-#     k <- append(q, a)
-#     q<-k
+#     q <- append(q, a)
 #     }
 #     return(q)
 # }
 
 
 # a<-test(8)
-#print(a)
+# print(a)
 
 simcor <- function(ncor, nnor, rho){
     if (ncor < 1 | nnor < 2 | rho < -1 | rho > 1) return(NA)
@@ -36,5 +35,5 @@ simcor <- function(ncor, nnor, rho){
     return(result)
 }
 
-j<- simcor(ncor=5,nnor=15,rho=0)
-print(j)
+j <- simcor(ncor=1000,nnor=15,rho=0)
+print(quantile(j,c(0.025,0.975)))
