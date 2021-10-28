@@ -13,15 +13,30 @@ simcor <- function(ncor, nnor, rho){
     return(result)
 }
 
-k <- simcor(ncor=1000,nnor=15,rho=0.2)
-#print(quantile(k,0.5))
+for (i in seq(-0.99,0.99,by=0.01)){
+    k <- simcor(ncor=10000,nnor=15,rho=i)
 
-x=(-100:100)/10
-j = integrate(dnorm,lower = 0.5,upper = Inf)
-print(j)
+    j= k[k > 0.5]
+    g= k[k < -0.5]
+    p=c(j,g)
 
-if (j[1] > 0.8){
-    print("power > .8")
-} else {
-   print("power <= .8")
+    if((length(p)/10000)>0.8)break{
+        print("power greater than 80%",i) 
+    } 
 }
+
+# k <- simcor(ncor=10000,nnor=15,rho=0.7)
+
+# j= k[k > 0.5]
+# g= k[k < -0.5]
+# p=c(j,g)
+
+# if((length(p)/10000)>0.8){
+#     print("power greater than 80%")
+# }else {
+#    print("power lower than 80%")
+# }
+
+
+# n=seq(-1,1,by=(0.1))
+# print(n)
