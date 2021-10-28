@@ -13,7 +13,15 @@ simcor <- function(ncor, nnor, rho){
     return(result)
 }
 
-x=(-100:100)/10
+k <- simcor(ncor=1000,nnor=15,rho=0.2)
+#print(quantile(k,0.5))
 
-l= dnorm(x)
-plot(x,l)
+x=(-100:100)/10
+j = integrate(dnorm,lower = 0.5,upper = Inf)
+print(j)
+
+if (j[1] > 0.8){
+    print("power > .8")
+} else {
+   print("power <= .8")
+}
