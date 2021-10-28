@@ -1,3 +1,6 @@
-j=seq(0,-0.9,by=-0.1)
+x= (1:100)/ 10 
 
-print(j)
+plot(x)
+for (i in (1:5)){
+    lines(c(i,i),c(i,i+1))
+}

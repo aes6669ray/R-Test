@@ -11,17 +11,25 @@ simcor <- function(ncor, nnor, rho){
     return(result)
 }
 
-for (i in seq(-0.6,-0.7,by=-0.01)){
-    k <- simcor(ncor=10000,nnor=15,rho=i)
+# for (i in seq(-0.6,-0.7,by=-0.01)){
+#     k <- simcor(ncor=10000,nnor=15,rho=i)
 
-    j= k[k > 0.5]
-    g= k[k < -0.5]
-    p=c(j,g)
+#     j= k[k > 0.5]
+#     g= k[k < -0.5]
+#     p=c(j,g)
 
-    if((length(p)/10000)>0.8) {
-         break 
-    } 
-    cat("power is lower than 80%",i,"\n")
+#     if((length(p)/10000)>0.8) {
+#          break 
+#     } 
+#     cat("power is lower than 80%",i,"\n")
+# }
+
+
+
+for (i in (1:2)){
+    j=simcor(ncor=10000,nnor=i,rho=0)
+    k=unname(quantile(j,c(0.025,0.975)))
+    plot(i,k,type="p")
+    lines(c(i,i),c(k[1],k[2]))
 }
-
 
