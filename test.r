@@ -1,4 +1,3 @@
-x <- seq(-1,12)
-plot(x,dchisq(x,4),type="o")
+j=seq(0,-0.9,by=-0.1)
 
-lines(x,dchisq(x,5))
+print(j)

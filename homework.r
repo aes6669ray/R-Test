@@ -1,4 +1,4 @@
-library(mvtnorm)
+#library(mvtnorm)
 
 simcor <- function(ncor, nnor, rho){
     if (ncor < 1 | nnor < 2 | rho < -1 | rho > 1) return(NA)
@@ -13,16 +13,17 @@ simcor <- function(ncor, nnor, rho){
     return(result)
 }
 
-for (i in seq(-0.99,0.99,by=0.01)){
+for (i in seq(-0.6,-0.7,by=-0.01)){
     k <- simcor(ncor=10000,nnor=15,rho=i)
 
     j= k[k > 0.5]
     g= k[k < -0.5]
     p=c(j,g)
 
-    if((length(p)/10000)>0.8)break{
-        print("power greater than 80%",i) 
+    if((length(p)/10000)>0.8) {
+         break 
     } 
+    cat("power lower than 80%",i,"\n")
 }
 
 # k <- simcor(ncor=10000,nnor=15,rho=0.7)
@@ -40,3 +41,4 @@ for (i in seq(-0.99,0.99,by=0.01)){
 
 # n=seq(-1,1,by=(0.1))
 # print(n)
+
