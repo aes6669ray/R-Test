@@ -21,11 +21,11 @@
 # a= seq(0,10,0.001)
 # plot(a, df(a,df1=3,df2=25),type="l")
 
-hu <- read.table("housing.txt", header = TRUE, row.names = 1)
+# hu <- read.table("housing.txt", header = TRUE, row.names = 1)
 
-a <- log(hu$Apartment[1:51])
+# a <- log(hu$Apartment[1:51])
 
-lu <- cbind(hu, a)
-print(lu)
+# lu <- cbind(hu, a)
+# print(lu)
 
 #mydata<‐read.table(file="clipboard")
