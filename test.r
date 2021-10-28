@@ -8,5 +8,11 @@
 #     lines(c(i,i),c(i,i+1))
 # }
 
-j=matrix(1,4,4)
-print(j)
+j=matrix(c(1:16),4,4)
+
+a=NA
+b=NaN
+
+print(a*b)
+
+print(b*a)
