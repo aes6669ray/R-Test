@@ -1,6 +1,12 @@
-x= (1:100)/ 10 
+# x= (1:10) 
+# y= (rep(5,10))
 
-plot(x)
-for (i in (1:5)){
-    lines(c(i,i),c(i,i+1))
-}
+# plot()
+# plot(x,type="l")
+# plot(x,y,type="p")
+# for (i in (1:10)){
+#     lines(c(i,i),c(i,i+1))
+# }
+
+j=matrix(1,4,4)
+print(j)
