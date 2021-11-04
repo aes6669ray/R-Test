@@ -38,33 +38,33 @@
 # z=c(1,2)
 # cat("Add Inf in vector:",z+x,"\n")
 
-# x=c(1,NULL,NaN,2)
-# print(x)
-# y=NULL
-# print(y)
+x=c(1,NA,NaN,2)
+print(x)
+y=NULL
+print(y)
 
-# j=c(1,NaN,2)
-# k=c(1,NULL,2)
+j=c(1,NaN,NA)
+k=c(1,NA,NaN)
 
-# cat("length of j",length(j),"\n")
-# cat("length of k",length(k),"\n")
+cat("length of J",length(j),"\n")
+cat("length of K",length(k),"\n")
 
-# cat("sum of j",sum(j),"\n")
-# cat("sum of k",sum(k),"\n")
+cat("sum of j",sum(j),"\n")
+cat("sum of k",sum(k),"\n")
 
 
-a=c(NaN,NA,Inf,0,1)
-b=NULL
-for (i in a){
-    for (j in a){
-      b=c(b,i*j)  
-    }
-}
+# a=c(NaN,NA,Inf,0,1)
+# b=NULL
+# for (i in a){
+#     for (j in a){
+#       b=c(b,i*j)  
+#     }
+# }
 
-t=matrix(b,5,5)
-k=data.frame(t,row.names = c("NaN","NA","Inf",0,1))
-names(k) = a
-print(k)
+# t=matrix(b,5,5)
+# k=data.frame(t,row.names = c("NaN","NA","Inf",0,1))
+# names(k) = a
+# print(k)
 
 
 # AA=NULL*NaN
