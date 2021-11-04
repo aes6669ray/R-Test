@@ -29,10 +29,14 @@ b =a[-bh,]
 dh = chull(b)
 dh = c(dh,dh[1])
 
-plot(housing, pch= 19)
-lines(housing$Apartment[ah],housing$House[ah],col="green")
-lines(a$Apartment[ch],a$House[ch],col="red")
-lines(b$Apartment[dh],b$House[dh],col="blue")
+# plot(housing, pch= 19)
+# lines(housing$Apartment[ah],housing$House[ah],col="green")
+# lines(a$Apartment[ch],a$House[ch],col="red")
+# lines(b$Apartment[dh],b$House[dh],col="blue")
+nlev=5
+colors=heat.colors(9)[3:(nlev+2)]
+plothulls(housing, n.hull = nlev, col.hull = colors,
+main="", lty.hull=1:nlev, density = NA)
 
 
 
