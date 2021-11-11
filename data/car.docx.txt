@@ -1,0 +1,24 @@
+The data was part of the Annual
+Meetings (now referred to as the Joint Statistical Meetings) in 
+Toronto, August 15-18, 1983. 
+Participants were invited to provide 
+graphical descriptions of these data.
+
+
+There are 406 observations (different cars) on the following 8 
+variables: 
+MPG (miles per gallon), 
+# cylinders, 
+engine displacement (cu. inches),
+horsepower, 
+vehicle weight (lbs.), 
+time to accelerate from O to 60 mph (sec.), 
+model year (modulo 100) between 1970 and 1982 
+origin of car (1. American, 2. European, 3. Japanese). 
+
+
+These data appear on seven pages. Also provided are the
+car labels (types) in the same order as the 8 variables on seven
+separate pages. Missing data values are marked.
+
+

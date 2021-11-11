@@ -1,0 +1,8 @@
+         AnnPr PrTh   StochPr JAppPr ThPrApp AnnSt Totals
+AnnPr      468 255  33  46  72   74  948 
+PrTh       333 322  47  47  72   76  897 
+StochPr    208 155  93  76  40   41  613 
+JAppPr     121  31  37 283  26   35  533 
+ThPrApp    101  60  23  38 344   63  629 
+AnnSt       76  81  13  14  50 1009 1243 
+Totals    1307 904 246 504 604 1298 4863

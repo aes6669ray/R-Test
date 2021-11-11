@@ -1,0 +1,39 @@
+Name	Calories		Fat	Satfat	Carbs	Sugar	Sodium
+Twix 	250		12	7	33	24	100
+Milky Way	240		9	7	37	31	75
+Baby Ruth	275		13	7	39	32	138
+3 Musketeers	240		7	5	42	36	90
+Mounds 	240		13	10	29	21	55
+Butterfinger	270		11	6	43	29	135
+Rolo	220		10	7	33	29	80
+Almond Joy	220		13	8	26	20	50
+Snickers	230		11	4	32	27	115
+Oh Henry!	320		17	7	36	29	35
+Reese's Pieces	200		9	8	25	21	55
+Whatchamacalit	237		11	8	30	23	144
+Reese's Fast Break	260		12	4.5	35	30	190
+Mr Goodbar	250		16	7	25	22	50
+Nestle Crunch	220		11	7	30	24	60
+Whoppers	190		7	7	31	24	100
+Hershey's bar	210		13	8	26	24	35
+Symphony	223		12.8	7.7	24.4	22.7	42
+Andes Mints	200		13	11	22	20	20
+Kit Kat	207		10.4	7.2	25.8	19.5	22
+Hershey's Skor	200		12	7	25	24	130
+Heath Toffee	210		13	7	24	23	135
+Reese's Nutrageous	260		16	5	28	22	100
+Raisinets	190		8	5	32	28	15
+5th Avenue	260		12	5	38	29	120
+Cadbury Dairy Milk	260		14.6	9.1	27.9	27.8	.04
+100 Grand	190		8	5	30	22	90
+Dove Smooth Milk Choc.	  220		13	8	24	22	25
+Charleston Chew	230		6	4.5	43	30	30
+Reese's Peanut Butter cups	210		13	4.5	24	21	150
+Reese's Sticks	220		13	5	23	17	130
+Zero Candy Bar	200		7	5	34	29	105
+Goobers	200		13	5	20	17	15
+Milk Duds	230		8	5	38	27	135
+Junior Mints	220		4	3	45	42	35
+Payday	240		13	2.5	27	21	120
+M&Ms plain	230		9	6	34	31	35
+M&Ms peanut	250		13	5	30	25	25

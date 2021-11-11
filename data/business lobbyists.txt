@@ -1,0 +1,21 @@
+Name	Lobbyists	Lobby budget	Revenue
+General Electric	195	39.3	150.2
+Verizon Communications	143	16.8	106.6
+Boeing	139	17.9	64.3
+Comcast	109	13.0	37.9
+A T & T	93	15.4	124.3
+Lockheed Martin	103	12.6	45.8
+FedEx	66	25.6	34.7
+Pfizer	80	13.3	67.8
+General Dynamics	102	10.9	32.5
+United Technologies	68	14.5	54.3
+Northrop Grumman	65	15.7	34.8
+General Motors	76	9.6	135.4
+Microsoft	104	6.9	62.5
+Prudential Financial	69	8.8	38.4
+Raytheon	71	7.0	25.2
+Berkshire Hathaway	64	9.6	136.2
+Walmart Stores	90	6.0	421.8
+Dow Chemical	63	8.2	53.7
+Exxon Mobil	50	12.5	382.2
+Johnson & Johnson	70	6.7	61.6
