@@ -1,3 +1,6 @@
+#install.packages('jsonlite')
+
+
 # simcor <- function(ncor, nnor, rho){
 #     if (ncor < 1 | nnor < 2 | rho < -1 | rho > 1) return(NA)
 #     library(mvtnorm)
