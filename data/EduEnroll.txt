@@ -1,0 +1,11 @@
+City            change
+Detroit           32.1
+Cleveland         17.7
+Milwaukee         11.2
+Columbus          10.4
+Philadelphia      10.2
+Mesa               9.6
+Memphis            9.1
+Tucson             8.6
+SanBernardino      8.2
+LongBeach          7.8

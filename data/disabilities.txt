@@ -1,0 +1,7 @@
+Disabilities           Age65  Age75  Age85
+Vision                 16.5   18.2   24.9
+Hearing                34.9   40.6   48.1
+Cognitive              22.6   28.0   39.1
+Ambulatory             63.6   65.2   72.8
+Selfcare               20.2   26.9   42.4
+Independent            34.0   47.2   68.7

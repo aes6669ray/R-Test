@@ -1,0 +1,83 @@
+AggregateTypeUnitCode NumberofInitialInspections NumberofInitialInspectionsthatFailedforActiveRatSigns(ARS)
+PercentageofInitialInspectionsthatFailedforARS
+NumberofInitialInspectionsthatFailedforGarbage&Harborage
+NumberofComplianceInspections
+NumberofComplianceInspectionsthatFailed
+PercentageofComplianceInspectionsthatFailed
+NumberofComplianceInspectionsthatFailedforARS
+PercentageofComplianceInspectionsthatFailedforARS
+NumberofServiceVisitsbyaPestManagementProfessional
+NumberofLotsCleaned
+PercentageofInspectionsthatwereARSFreeonCompliancethathadARSonInitial
+Citywide 
+Citywide 110,058 11,675 10.61% 15,746 24,812 12,637 50.93% 6,257 25.22% 24,765 211 47.84%
+Borough Unknown 744 39 5.24% 101 7 4 57.14% 0 0.00% 57 0 0.00%
+Borough Manhattan 45,931 3,791 8.25% 1,336 4,663 2064 44.26% 1,747 37.47% 5,085 38 52.30%
+Borough Bronx 25,987 3,944 15.18% 4,678 7,660 4314 56.32% 2,355 30.74% 6,094 37 42.40%
+Borough Brooklyn 20,401 3,020 14.80% 3,609 6,167 3,168 51.37% 1,745 28.30% 9,155 102 44.98%
+Borough Queens 14,045 655 4.66% 4,109 4,397 2091 47.56% 317 7.21% 2,659 30 62.14%
+Borough Staten Island 2,950 226 7.66% 1,913 1,918 996 51.93% 93 4.85% 1,715 4 64.67%
+Community District Unknown 774 48 6.20% 117 23 16 69.57% 4 17.39% 223 0 33.33%
+Community District 100 0 0 0.00% 0 0 0 0.00% 0 0.00% 0 0 0.00%
+Community District 101 1,555 167 10.74% 22 169 74 43.79% 73 43.20% 715 1 47.66%
+Community District 102 4,945 340 6.88% 69 400 181 45.25% 170 42.50% 363 3 49.04%
+Community District 103 4,805 732 15.23% 75 708 308 43.50% 291 41.10% 856 1 52.26%
+Community District 104 3,635 249 6.85% 40 284 126 44.37% 113 39.79% 273 1 53.04%
+Community District 105 3,203 76 2.37% 25 129 66 51.16% 59 45.74% 117 0 29.33%
+Community District 106 2,873 113 3.93% 46 161 51 31.68% 41 25.47% 113 0 66.34%
+Community District 107 4,839 362 7.48% 62 396 142 35.86% 134 33.84% 296 0 62.39%
+Community District 108 6,077 314 5.17% 81 391 147 37.60% 131 33.50% 309 0 59.61%
+Community District 109 2,681 328 12.23% 166 441 234 53.06% 181 41.04% 505 3 46.84%
+Community District 110 4,915 367 7.47% 286 542 232 42.80% 169 31.18% 518 16 56.45%
+Community District 111 3,410 269 7.89% 236 411 172 41.85% 109 26.52% 295 7 54.25%
+Community District 112 2,992 474 15.84% 228 631 331 52.46% 276 43.74% 679 6 43.53%
+Community District 200 21 17 80.95% 4 0 0 0.00% 0 0.00% 0 0 0.00%
+Community District 201 4,232 271 6.40% 370 536 229 42.72% 116 21.64% 380 0 52.21%
+Community District 202 517 160 30.95% 312 356 179 50.28% 79 22.19% 171 1 46.49%
+Community District 203 1,193 574 48.11% 492 1,063 556 52.30% 313 29.44% 399 7 46.31%
+Community District 204 3,692 560 15.17% 316 752 438 58.24% 318 42.29% 660 3 41.21%
+Community District 205 4,242 868 20.46% 529 1,356 852 62.83% 582 42.92% 1,488 3 39.18%
+Community District 206 4,582 476 10.39% 488 926 502 54.21% 299 32.29% 839 3 43.72%
+Community District 207 4,165 523 12.56% 484 959 571 59.54% 388 40.46% 1,627 1 38.36%
+Community District 208 250 57 22.80% 131 178 71 39.89% 31 17.42% 15 1 49.02%
+Community District 209 1,181 256 21.68% 417 601 335 55.74% 155 25.79% 257 1 44.10%
+Community District 210 236 14 5.93% 121 139 79 56.83% 9 6.47% 18 1 20.00%
+Community District 211 894 128 14.32% 492 277 170 61.37% 41 14.80% 169 3 26.92%
+Community District 212 770 33 4.29% 518 513 329 64.13% 22 4.29% 70 13 50.00%
+Community District 226 0 0 0.00% 0 0 0 0.00% 0 0.00% 0 0 0.00%
+Community District 228 0 0 0.00% 0 0 0 0.00% 0 0.00% 1 0 0.00%
+Community District 300 7 5 71.43% 1 1 0 0.00% 0 0.00% 0 0 0.00%
+Community District 301 898 435 48.44% 299 691 341 49.35% 241 34.88% 2,043 2 48.85%
+Community District 302 466 256 54.94% 111 321 180 56.07% 135 42.06% 674 2 43.26%
+Community District 303 1,515 624 41.19% 699 1,250 801 64.08% 479 38.32% 2,352 34 33.28%
+Community District 304 833 445 53.42% 266 731 425 58.14% 309 42.27% 1,840 14 39.39%
+Community District 305 4,297 51 1.19% 386 421 206 48.93% 20 4.75% 128 19 62.22%
+Community District 306 576 233 40.45% 220 434 189 43.55% 120 27.65% 337 4 56.36%
+Community District 307 163 46 28.22% 53 112 52 46.43% 27 24.11% 59 1 47.83%
+Community District 308 725 346 47.72% 261 564 300 53.19% 192 34.04% 636 6 41.89%
+Community District 309 3,740 251 6.71% 146 309 130 42.07% 98 31.72% 474 4 50.52%
+Community District 310 140 2 1.43% 44 44 9 20.45% 2 4.55% 2 0 0.00%
+Community District 311 1,245 24 1.93% 65 88 29 32.95% 6 6.82% 62 0 77.27%
+Community District 312 188 11 5.85% 80 86 29 33.72% 6 6.98% 29 1 71.43%
+Community District 313 2,365 43 1.82% 142 160 79 49.38% 18 11.25% 69 0 61.11%
+Community District 314 660 40 6.06% 104 130 55 42.31% 21 16.15% 35 2 51.35%
+Community District 315 708 15 2.12% 98 103 54 52.43% 4 3.88% 26 0 69.23%
+Community District 316 274 55 20.07% 160 196 95 48.47% 22 11.22% 149 4 58.00%
+Community District 317 1,198 125 10.43% 295 348 133 38.22% 43 12.36% 127 3 59.22%
+Community District 318 395 11 2.78% 176 174 58 33.33% 0 0.00% 26 6 100.00%
+Community District 355 0 0 0.00% 0 0 0 0.00% 0 0.00% 0 0 0.00%
+Community District 400 3 2 66.67% 1 2 2 100.00% 1 50.00% 12 0 0.00%
+Community District 401 2,672 131 4.90% 501 566 185 32.69% 66 11.66% 442 0 57.14%
+Community District 402 1,471 89 6.05% 365 390 136 34.87% 31 7.95% 410 0 68.35%
+Community District 403 3,496 60 1.72% 518 400 152 38.00% 26 6.50% 266 0 61.11%
+Community District 404 747 36 4.82% 241 277 112 40.43% 25 9.03% 149 0 51.43%
+Community District 405 1,259 154 12.23% 325 453 196 43.27% 77 17.00% 566 0 58.50%
+Community District 406 97 7 7.22% 40 43 19 44.19% 3 6.98% 32 0 66.67%
+Community District 407 1,458 56 3.84% 424 477 232 48.64% 19 3.98% 196 0 76.79%
+Community District 408 172 10 5.81% 101 113 65 57.52% 4 3.54% 47 2 63.64%
+Community District 409 267 9 3.37% 184 183 107 58.47% 6 3.28% 46 1 75.00%
+Community District 410 264 9 3.41% 170 182 94 51.65% 3 1.65% 25 10 88.89%
+Community District 411 107 1 0.93% 56 56 28 50.00% 0 0.00% 0 1 100.00%
+Community District 412 1,422 80 5.63% 805 875 528 60.34% 51 5.83% 445 16 56.52%
+Community District 413 377 6 1.59% 239 246 147 59.76% 2 0.81% 8 0 100.00%
+Pest Control Services Aggregrate Data from January 01, 2011 to December 31, 2011

@@ -1,0 +1,23 @@
+
+
+
+
+trange <-seq(from=2, to=8, length=10)  # range of theta
+srange <-seq(from=8, to=12,length=10)  # range of sigma
+drawll <-function(th,sig)
+     {
+      sum(dnorm(x, mean=th, sd=sig, log=TRUE))
+     }
+zvals<-matrix(0,length(trange),length(srange))
+
+for (i in 1: length(trange))
+    { for (j in 1:length(srange))
+       { zvals[i,j]<-drawll(trange[i],srange[j])
+    }  }
+                       # define log-likelihood
+persp( x=trange, y=srange, z=zvals, zlim=c(-100,-90),
+       xlab='theta', ylab='sigma', axes=TRUE) 
+
+
+
+

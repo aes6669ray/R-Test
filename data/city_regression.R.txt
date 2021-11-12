@@ -1,0 +1,31 @@
+# Univariate regressions
+
+
+fit1<- lm(cost ~ pop + income + adj)
+anova(fit1)
+summary(fit1)
+
+fit1<- lm(rent ~ pop + income + adj)
+anova(fit1)
+summary(fit1)
+
+fit1<- lm(price ~ pop + income + adj)
+anova(fit1)
+summary(fit1)
+
+
+# Multivariate MANOVA
+
+
+Y <- cbind(cost, rent, price)
+
+fit <- manova(Y ~ pop + income + adj)
+summary.aov(fit)           # univariate ANOVA tables
+summary(fit, test="Wilks") # ANOVA table of Wilks' lambda
+summary(fit)               # same F statistics as single-df terms
+coefficients(fit)
+effects(fit)
+fitted.values(fit)
+residuals(fit)             # obtains residuals
+
+pairs(residuals(fit))      # matrix scatterplot of residuals

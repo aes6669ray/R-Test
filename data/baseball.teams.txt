@@ -1,0 +1,63 @@
+
+baseball <- read.table(file='baseball_teams.txt', header=TRUE, row.names=1)
+
+league <- baseball[,1]  
+division <- baseball[,2]
+
+league
+
+division
+
+d <- dist(scale(baseball[,c(-1,-2)]), # scale values but 
+                                      # not league or division
+     method = "euclid")               # distance matrix
+
+library(ape)                 # variety of plotting options
+
+fit <- hclust(d)
+
+op <- par(mfrow=c(3,2))      # 3x2 plots on one one graph
+plot(fit, main='Plain dendrogram', hang=-1, cex=.8,
+   xlab=' ', ylab=' ', sub=' ', axes=FALSE)   
+
+plot(as.dendrogram(fit), type='triangle',
+   main='Triangle branches', cex=.8, axes=FALSE)
+plot(as.phylo(fit), type = 'unrooted', cex=.8,
+   main='Unrooted tree')
+plot(as.phylo(fit), type = 'fan', cex=.8,
+   main='Leaves spread in a circle')
+
+#    methods for different colored leaves
+
+fit <- as.dendrogram(hclust(d))
+
+# function to get color labels
+colLab <- function(n)         # function on dendrograms 
+   {
+    if (is.leaf(n))           # when we find a leaf
+      {
+       a <- attributes(n)     # capture its attributes
+                              # which team number is it? 
+       teamn <- match(a$label, row.names(baseball))
+                              # color for league or division
+       leafcolor <- c('red','blue')[teamtype[teamn]]
+                              # assign new attributes to leaf 
+       attr(n, "nodePar") <- c(a$nodePar, lab.col=leafcolor)
+      }
+    return(n)                 # return the dendrogram
+   }
+
+teamtype <- league
+colfit = dendrapply(fit, colLab) # dendrapply to tree
+plot(colfit, main='Color by league', 
+   cex=.8, axes=FALSE) 
+
+teamtype <- division
+colfit = dendrapply(fit, colLab)
+plot(colfit, main='Color by division', 
+   cex=.8, axes=FALSE)
+
+par(op)
+
+
+

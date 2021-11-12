@@ -1,0 +1,20 @@
+firm       deals    value   mktshare
+GoldmanSacks   190  279  25
+MorganStanley  170  249  22
+JPMorgan       138  221  20
+DeutscheBank   116  214  19
+Barclays       146  195  18
+CreditSuisse   117  184  17
+Citigroup      100  152  14
+BankAmerica     95  140  13
+Lazard         111  116  10
+Nomura          89  105   9
+Rothschild     116   89   8
+BNPParibas      35   75   7
+UBS             82   68   6
+RBC             91   53   5
+MKlein           1   49   4
+
+
+
+    
